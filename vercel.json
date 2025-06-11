@@ -1,0 +1,7 @@
+{
+  "functions": {
+    "api/subscriber.js": {
+      "runtime": "edge"
+    }
+  }
+}
