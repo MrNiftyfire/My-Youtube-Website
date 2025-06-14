@@ -1,0 +1,31 @@
+.top-menu {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.85);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem 0;
+  z-index: 1000;
+  backdrop-filter: blur(10px);
+}
+
+.top-menu a {
+  color: white;
+  text-decoration: none;
+  margin: 0 15px;
+  font-size: 1.1rem;
+  font-weight: bold;
+  transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.top-menu a:hover {
+  color: #ff00ff;
+  transform: scale(1.1);
+}
+
+
+body {
+  padding-top: 70px;
+}
