@@ -22,7 +22,7 @@ if (trailerImageElement) {
   });
 }
 
-// ===== FLAPPY BIRD GAME (small + background) =====
+/// ===== FLAPPY BIRD GAME (menu bar excluded + mobile-friendly) =====
 window.addEventListener('DOMContentLoaded', () => {
   const canvas = document.getElementById('flappyCanvas');
   if (!canvas) return;
@@ -77,8 +77,7 @@ window.addEventListener('DOMContentLoaded', () => {
     loop();
   }
 
-  // Click to start / flap / restart
-  canvas.addEventListener('click', () => {
+  function handleInput() {
     if (!gameStarted) {
       restartGame();
     } else if (gameOver) {
@@ -86,19 +85,41 @@ window.addEventListener('DOMContentLoaded', () => {
     } else {
       velocity = lift;
     }
+  }
+
+  // ===== CLICK / TAP ANYWHERE EXCEPT MENU BAR =====
+  function isClickOnMenuBar(target) {
+    // check if clicked element or its parent is the menu bar
+    return target.closest && target.closest('.menu-bar');
+  }
+
+  document.addEventListener('click', e => {
+    if (isClickOnMenuBar(e.target)) return; // ignore menu bar clicks
+    handleInput();
   });
 
-  // Space key support (prevent scroll)
+  document.addEventListener('touchstart', e => {
+    const touch = e.touches[0];
+    const element = document.elementFromPoint(touch.clientX, touch.clientY);
+    if (isClickOnMenuBar(element)) return; // ignore touches on menu bar
+
+    const rect = canvas.getBoundingClientRect();
+    if (
+      touch.clientX >= rect.left &&
+      touch.clientX <= rect.right &&
+      touch.clientY >= rect.top &&
+      touch.clientY <= rect.bottom
+    ) {
+      handleInput();
+    }
+    // Don't preventDefault → keeps scrolling enabled
+  });
+
+  // Spacebar support (desktop)
   document.addEventListener('keydown', e => {
     if (e.code === 'Space') {
       e.preventDefault();
-      if (!gameStarted) {
-        restartGame();
-      } else if (gameOver) {
-        restartGame();
-      } else {
-        velocity = lift;
-      }
+      handleInput();
     }
   });
 
@@ -107,8 +128,6 @@ window.addEventListener('DOMContentLoaded', () => {
     frame++;
 
     ctx.clearRect(0, 0, canvas.width, canvas.height);
-
-    // Draw background
     ctx.drawImage(bgImg, 0, 0, canvas.width, canvas.height);
 
     // Bird physics
@@ -161,13 +180,13 @@ window.addEventListener('DOMContentLoaded', () => {
       gameOver = true;
     }
 
-    // Draw score
+    // Score text
     ctx.fillStyle = "white";
     ctx.font = "20px Fredoka, sans-serif";
     ctx.textAlign = "center";
     ctx.fillText("Score: " + score, canvas.width / 2, 40);
 
-    // Game over screen
+    // Game over overlay
     if (gameOver) {
       ctx.fillStyle = "rgba(0,0,0,0.5)";
       ctx.fillRect(0, 0, canvas.width, canvas.height);
@@ -175,7 +194,7 @@ window.addEventListener('DOMContentLoaded', () => {
       ctx.font = "28px Fredoka, sans-serif";
       ctx.fillText("Game Over!", canvas.width / 2, 200);
       ctx.font = "16px Fredoka, sans-serif";
-      ctx.fillText("Click or Press Space to Restart", canvas.width / 2, 230);
+      ctx.fillText("Click, or Press Space", canvas.width / 2, 230);
       return;
     }
 
@@ -194,9 +213,8 @@ window.addEventListener('DOMContentLoaded', () => {
     ctx.fillStyle = "white";
     ctx.font = "22px Fredoka, sans-serif";
     ctx.textAlign = "center";
-    ctx.fillText("Click or Press Space to Start", canvas.width / 2, 220);
+    ctx.fillText("Click, or Press Space", canvas.width / 2, 220);
   }
 
   drawStartScreen();
 });
-
