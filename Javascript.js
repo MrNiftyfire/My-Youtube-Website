@@ -1,45 +1,30 @@
-const trailerImages = [
-  "Minecraft Achievements.png",
-  "Blooket Calculator.png",
-  "Chess Achievements.png",
-  "Blooket Blooks.png",
-  "Duolingo Achievements.png",
-  "MSM.png"
-];
-
-let currentTrailerIndex = 0;
-const trailerImageElement = document.getElementById("swapImage");
-
-if (trailerImageElement) {
-  trailerImageElement.addEventListener("click", () => {
-    trailerImageElement.style.opacity = "0"; // fade out
-
-    setTimeout(() => {
-      currentTrailerIndex = (currentTrailerIndex + 1) % trailerImages.length;
-      trailerImageElement.src = trailerImages[currentTrailerIndex];
-      trailerImageElement.style.opacity = "1"; // fade back in
-    }, 400); // matches CSS transition
-  });
-}
-
-// ===== FLAPPY BIRD GAME (menu bar excluded + mobile-friendly + no double input) =====
-window.addEventListener('DOMContentLoaded', () => {
-  const canvas = document.getElementById('flappyCanvas');
+// ===== FLAPPY BIRD GAME =====
+window.addEventListener("DOMContentLoaded", () => {
+  const canvas = document.getElementById("flappyCanvas");
   if (!canvas) return;
-  const ctx = canvas.getContext('2d');
+  const ctx = canvas.getContext("2d");
 
   canvas.width = 300;
   canvas.height = 450;
 
+  // === Images ===
   const bgImg = new Image();
-  bgImg.src = 'Flappy Bird Background (Game).png';
+  bgImg.src = "Flappy Bird Background (Game).png";
   const birdImg = new Image();
-  birdImg.src = 'Flappy Bird.png';
-  const pipeImg = new Image();
-  pipeImg.src = 'Pipe.png';
+  birdImg.src = "Flappy Bird.png";
+  const upPipeImg = new Image();
+  upPipeImg.src = "Up Pipe.png"; // bottom pipe
+  const downPipeImg = new Image();
+  downPipeImg.src = "Down Pipe.png"; // top pipe
   const groundImg = new Image();
-  groundImg.src = 'Grass.png';
+  groundImg.src = "Grass.png";
 
+  // === Sounds ===
+  const flySound = new Audio("Flappy Bird Fly.mp3");
+  const scoreSound = new Audio("Flappy Bird Score.mp3");
+  const dieSound = new Audio("Flappy Bird Die.mp3");
+
+  // === Game Variables ===
   let birdX = 70;
   let birdY = 150;
   let gravity = 0.4;
@@ -53,15 +38,18 @@ window.addEventListener('DOMContentLoaded', () => {
   let gameOver = false;
   let gameStarted = false;
 
+  // === Add Pipe Pair ===
   function addPipe() {
     const topHeight = Math.floor(Math.random() * 120) + 50;
     pipes.push({
       x: canvas.width,
       top: topHeight,
-      bottom: topHeight + pipeGap
+      bottom: topHeight + pipeGap,
+      passed: false
     });
   }
 
+  // === Restart ===
   function restartGame() {
     birdY = 150;
     velocity = 0;
@@ -81,68 +69,43 @@ window.addEventListener('DOMContentLoaded', () => {
       restartGame();
     } else {
       velocity = lift;
+      flySound.currentTime = 0;
+      flySound.play();
     }
   }
 
-  // Helper: check if click/tap is on the menu bar
+  // === Ignore Menu Bar Clicks ===
   function isClickOnMenuBar(target) {
-    return target.closest && target.closest('.menu-bar');
+    return target.closest && target.closest(".menu-bar");
   }
 
-  // ===== CLICK / TAP ANYWHERE EXCEPT MENU BAR (no double tap) =====
-  let touchJustTriggered = false; // prevents duplicate click after touch
+  let touchJustTriggered = false;
 
-  function isClickOnMenuBar(target) {
-    return target.closest && target.closest('.menu-bar');
-  }
-
-  // Handle clicks (desktop and synthetic mobile clicks)
-  document.addEventListener('click', e => {
-    // Skip if a touch just fired (mobile)
+  document.addEventListener("click", e => {
     if (touchJustTriggered) {
       touchJustTriggered = false;
       return;
     }
-
-    if (isClickOnMenuBar(e.target)) return; // ignore menu bar
+    if (isClickOnMenuBar(e.target)) return;
     handleInput();
   });
 
-  // Handle taps (real mobile touches)
-  document.addEventListener('touchstart', e => {
+  document.addEventListener("touchstart", e => {
     const touch = e.touches[0];
     const element = document.elementFromPoint(touch.clientX, touch.clientY);
-
-    // Ignore taps on menu bar
     if (isClickOnMenuBar(element)) return;
-
-    // Mark so the next synthetic click is ignored
     touchJustTriggered = true;
-
-    // Check if touch is inside canvas area
-    const rect = canvas.getBoundingClientRect();
-    if (
-      touch.clientX >= rect.left &&
-      touch.clientX <= rect.right &&
-      touch.clientY >= rect.top &&
-      touch.clientY <= rect.bottom
-    ) {
-      handleInput();
-    } else {
-      // Touch outside canvas (still triggers game)
-      handleInput();
-    }
-    // Don't preventDefault → keeps scroll working
+    handleInput();
   });
 
-  // Space key (desktop)
-  document.addEventListener('keydown', e => {
-    if (e.code === 'Space') {
+  document.addEventListener("keydown", e => {
+    if (e.code === "Space") {
       e.preventDefault();
       handleInput();
     }
   });
 
+  // === Main Loop ===
   function loop() {
     if (gameOver) return;
     frame++;
@@ -153,48 +116,80 @@ window.addEventListener('DOMContentLoaded', () => {
     velocity += gravity;
     birdY += velocity;
 
+    // === Top of screen reset ===
+    if (birdY < -30) {
+      dieSound.currentTime = 0;
+      dieSound.play();
+      restartGame();
+      return;
+    }
+
     if (frame % 100 === 0) addPipe();
 
+    // === Pipes ===
     for (let i = pipes.length - 1; i >= 0; i--) {
       const p = pipes[i];
       p.x -= 2;
 
-      ctx.save();
-      ctx.translate(p.x, 0);
-      ctx.scale(1, -1);
-      ctx.drawImage(pipeImg, 0, -p.top, 50, p.top);
-      ctx.restore();
+      // Top pipe (Down Pipe.png)
+      ctx.drawImage(downPipeImg, p.x, 0, 50, p.top);
 
-      ctx.drawImage(pipeImg, p.x, p.bottom, 50, canvas.height - p.bottom - groundHeight);
+      // Bottom pipe (Up Pipe.png)
+      ctx.drawImage(
+        upPipeImg,
+        p.x,
+        p.bottom,
+        50,
+        canvas.height - p.bottom - groundHeight
+      );
 
+      // Collision check
       if (
-        birdX + 30 > p.x && birdX < p.x + 50 &&
+        birdX + 30 > p.x &&
+        birdX < p.x + 50 &&
         (birdY < p.top || birdY + 24 > p.bottom)
       ) {
+        dieSound.currentTime = 0;
+        dieSound.play();
         gameOver = true;
       }
 
+      // Scoring (once per tunnel)
+      if (!p.passed && p.x + 50 < birdX) {
+        score++;
+        p.passed = true;
+        scoreSound.currentTime = 0;
+        scoreSound.play();
+      }
+
+      // Remove offscreen pipes
       if (p.x + 50 < 0) {
         pipes.splice(i, 1);
-        score++;
       }
     }
 
+    // === Ground ===
     for (let i = 0; i < canvas.width; i += 80) {
       ctx.drawImage(groundImg, i, canvas.height - groundHeight, 80, groundHeight);
     }
 
+    // === Bird ===
     ctx.drawImage(birdImg, birdX, birdY, 30, 24);
 
+    // === Ground Collision ===
     if (birdY + 24 >= canvas.height - groundHeight) {
+      dieSound.currentTime = 0;
+      dieSound.play();
       gameOver = true;
     }
 
+    // === Score ===
     ctx.fillStyle = "white";
     ctx.font = "20px Fredoka, sans-serif";
     ctx.textAlign = "center";
     ctx.fillText("Score: " + score, canvas.width / 2, 40);
 
+    // === Game Over Screen ===
     if (gameOver) {
       ctx.fillStyle = "rgba(0,0,0,0.5)";
       ctx.fillRect(0, 0, canvas.width, canvas.height);
@@ -215,7 +210,6 @@ window.addEventListener('DOMContentLoaded', () => {
     for (let i = 0; i < canvas.width; i += 80) {
       ctx.drawImage(groundImg, i, canvas.height - groundHeight, 80, groundHeight);
     }
-
     ctx.drawImage(birdImg, birdX, birdY, 30, 24);
     ctx.fillStyle = "white";
     ctx.font = "22px Fredoka, sans-serif";
