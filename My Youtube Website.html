@@ -311,12 +311,13 @@
   <iframe width="1120" height="630" src="https://www.youtube.com/embed/ZQTWZuX-c0w?si=3MrmSj-IvTBEdpg3" title="YouTube video player" allowfullscreen></iframe>
 </section>
 
-<section style="background-color: black; padding: 100px 20px;">
+<section style="background-color: black; padding: 100px 20px; text-align: center;">
   <h1 style="color: white; font-size: 4rem; margin-bottom: 40px;">
     <u>My Subscriber Count!</u>
   </h1>
   <div id="subCount" style="
-      display: inline-block;
+      display: inline-flex;
+      align-items: center;
       background-color: #ff0000;
       color: white;
       padding: 20px 40px;
@@ -324,38 +325,115 @@
       font-size: 2.5rem;
       font-weight: bold;
       box-shadow: 0 8px 25px rgba(255, 0, 0, 0.4);
+      overflow: hidden;
     ">
     Loading...
   </div>
 </section>
 
+<style>
+  .digit-container {
+    position: relative;
+    height: 2.5rem; /* same as font-size */
+    width: 1.5rem;   /* controls digit width, can adjust */
+    overflow: hidden;
+  }
+
+  .digit-strip {
+    position: absolute;
+    top: 0;
+    transition: top 0.5s ease-out;
+  }
+
+  .digit-strip div {
+    height: 2.5rem;
+    line-height: 2.5rem;
+    text-align: center;
+  }
+
+  .sub-text {
+    margin-left: 10px; /* spacing between number and "Subscribers" */
+    font-size: 2.5rem;
+    font-weight: bold;
+  }
+</style>
+
 <script>
+  let currentCount = 0;
+
+  function createDigitElements(number) {
+    return String(number).split('').map(digit => {
+      const container = document.createElement('div');
+      container.className = 'digit-container';
+
+      const strip = document.createElement('div');
+      strip.className = 'digit-strip';
+
+      // digits 0-9 repeated twice for smooth looping
+      for (let i = 0; i <= 19; i++) {
+        const d = document.createElement('div');
+        d.textContent = i % 10;
+        strip.appendChild(d);
+      }
+
+      container.appendChild(strip);
+      return container;
+    });
+  }
+
+  function updateCount(newCount) {
+    const container = document.getElementById('subCount');
+    const digits = String(newCount).split('');
+
+    // Rebuild digits if number of digits changed
+    if (container.querySelectorAll('.digit-container').length !== digits.length) {
+      container.innerHTML = '';
+      createDigitElements(newCount).forEach(d => container.appendChild(d));
+
+      const subText = document.createElement('div');
+      subText.className = 'sub-text';
+      subText.textContent = 'Subscribers';
+      container.appendChild(subText);
+    }
+
+    // Animate each digit
+    Array.from(container.querySelectorAll('.digit-container')).forEach((digitContainer, i) => {
+      const digitStrip = digitContainer.querySelector('.digit-strip');
+      const targetDigit = parseInt(digits[i]);
+      digitStrip.style.top = `-${targetDigit * 2.5}rem`;
+    });
+
+    currentCount = newCount;
+  }
+
   async function fetchSubs() {
     try {
       const response = await fetch("https://vercel-c4ld.vercel.app/api/subs", {
-        headers: {
-          "Accept": "application/json"
-        }
+        headers: { "Accept": "application/json" }
       });
-
-      // Try to parse JSON
       const data = await response.json();
+      const count = parseInt(data.subscribers) || 0;
 
-      // Get the number safely
-      const count = data.subscribers || "Error";
-
-      // Update the display
-      document.getElementById("subCount").innerText = `${count} Subscribers`;
+      if (count !== currentCount) {
+        updateCount(count);
+      }
     } catch (err) {
       console.error("Failed to load subscriber count:", err);
-      document.getElementById("subCount").innerText = "Failed to loal";
+      document.getElementById("subCount").innerText = "Failed to load";
     }
   }
 
-  // Fetch immediately when page loads
-  fetchSubs();
+  // Initialize with 0
+  const container = document.getElementById('subCount');
+  container.innerHTML = '';
+  createDigitElements(0).forEach(d => container.appendChild(d));
 
-  // Update every 10 seconds
+  const subText = document.createElement('div');
+  subText.className = 'sub-text';
+  subText.textContent = 'Subscribers';
+  container.appendChild(subText);
+
+  fetchSubs();
   setInterval(fetchSubs, 10000);
 </script>
 
