@@ -1,4 +1,48 @@
-// ===== FLAPPY BIRD GAME =====
+// === Image Switcher (not affected by other buttons) ===
+const trailerImages = [
+  "Minecraft Achievements.png",
+  "Blooket Calculator.png",
+  "Chess Achievements.png",
+  "Blooket Blooks.png",
+  "Duolingo Achievements.png",
+  "MSM.png"
+];
+
+let currentTrailerIndex = 0;
+const trailerImageElement = document.getElementById("swapImage");
+const musicButton = document.getElementById("music-toggle"); // music button reference
+
+if (trailerImageElement) {
+  trailerImageElement.style.cursor = "pointer";
+
+  document.addEventListener("click", (event) => {
+    const target = event.target;
+
+    // ✅ Ignore clicks on other buttons, menus, or the music button
+    if (
+      target.closest(".menu-bar") ||          // menu area
+      target.closest(".top-menu") ||          // top menu bar
+      target.closest("#music-toggle") ||      // music toggle button
+      target.closest("button") ||             // any generic button
+      target.tagName === "A"                  // any links
+    ) {
+      return; // ignore
+    }
+
+    // ✅ Only trigger if clicking on the image itself
+    if (target === trailerImageElement) {
+      trailerImageElement.style.transition = "opacity 0.4s ease";
+      trailerImageElement.style.opacity = "0"; // fade out
+
+      setTimeout(() => {
+        currentTrailerIndex = (currentTrailerIndex + 1) % trailerImages.length;
+        trailerImageElement.src = trailerImages[currentTrailerIndex];
+        trailerImageElement.style.opacity = "1"; // fade in
+      }, 400);
+    }
+  });
+}
+
 window.addEventListener("DOMContentLoaded", () => {
   const canvas = document.getElementById("flappyCanvas");
   if (!canvas) return;
@@ -219,3 +263,4 @@ window.addEventListener("DOMContentLoaded", () => {
 
   drawStartScreen();
 });
+
