@@ -1,0 +1,622 @@
+<h2>♟️ Chess (I <i>play way too much…</i> but still not enough)</h2>
+ <img src="Chess.jpeg" alt="Chess (New)" width="500px" height="334px">
+ <h2> Geometry Dash, <b>the hardest game</b></h2>
+<img src="GD.jpg" alt="GD (New)" width="640px" height="370px">
+<h2>Among Us, are you the imposter?</h2>
+<img src="Amoung Us.jpg" alt=" Amoung Us(New)" width="640px" height="370px">
+<h2> Pocket Champs, <U>the race of the century</U></h2>
+<img src="Pocket Champs.avif" alt="Pocket Champs (New)" width="693px" height="296px">
+<h2> Prodigy, I own every single pet</h2>
+<img src="Prodigy.webp" alt="Prodigy (New)" width="640px" height="360px">
+<h2> Duolingo (yes, the green bird still haunts me)
+    <br>I fear Duo just enough to remind you: <I>do your Spanish… or vanish 💨</I></h2>
+</h2>
+<img src="Duolingo.png" alt="Duolingo (New)" width="640px" height="313.5px">
+<h2> 🧱 LEGO animations, the best of them all</h2>
+<img src="LEGO.jpg" alt="LEGO (New)" width="1000px" height="562.5px">
+<h2> The most <I><u>hilarious Discord moments</u></I></h2>
+<img src="Discord.jpg" alt="Discord (New)" width="960px" height="540px">
+<h2>The Blooket <i>gambling is intense</i></h2>
+<img src="Blooket.jpg" alt="Blooket (New)" width="270px" height="148px">
+
+<h2> <b>Minecraft is life.<i> Period.</i></h2>
+<img src="Minecraft.png" alt="Minecraft (New)" width="640px" height="427px">
+
+<h2>I make the best modpacks/texture packs, <b><i>the best ones</i></b></h2>
+<img src="Modpacks.png" alt="Modpack (New)" width="300px" height="168px">
+
+<h2>Email:   mrniftyfireofficial@outlook.com
+<br>Discord: https://discord.gg/cPEWJCtaPm
+<br>X:       https://x.com/mrniftyfire</h2></center>
+🔥 Welcome to Mr Niftyfire! 🔥
+
+Get ready to dive into the heat with Mr Niftyfire — the official launch trailer is here, and it’s just the beginning. Whether you’re a fan of thrilling content, passionate community vibes, or just here for the 🔥 energy, you’re in the right place.
+
+🎬 Watch the Trailer
+Experience the hype, feel the momentum, and join the movement.
+
+🌐 Join the Community:
+Connect with fans, get exclusive updates, and be part of the firestorm.
+💬 Discord: https://discord.gg/mcNRHC85g
+
+🐦 Follow on X (Twitter):
+Stay updated and interact with us on social.
+🔗 @mrniftyfire
+
+📩 Contact:
+Have questions, ideas, or collab proposals?
+📧 mrniftyfireofficial@outlook.com
+
+The fire is spreading — are you ready to join the blaze?
+
+<iframe width="560" height="315" src="https://musiclab.chromeexperiments.com/Song-Maker/embed/5238918332678144" frameborder="0" allowfullscreen></iframe>
+<center>
+  <h1>Want More?</h1>
+  <p style="max-width: 800px; line-height: 1.6; font-size: 16px;">
+    Want some more Minecraft videos?<br>
+    Watch some more Minecraft, but in <strong>Story Mode</strong>!<br>
+    🌍 Step into a world where <em>your choices</em> shape the adventure, heroes rise to the occasion,
+    and every decision changes the story in exciting ways.<br>
+    <br>
+    ⚔️ Follow Jesse and the gang as they battle fierce enemies, explore dangerous temples, and solve
+    puzzles that keep you hooked from start to finish.<br>
+    🎭 With epic action, heartfelt moments, and plenty of humor, Minecraft Story Mode isn’t just about
+    survival — it’s about <em>living the story</em> and being part of something unforgettable.<br>
+    👉 Click below to dive into the adventure and relive every epic moment!
+  </p>
+
+  <a href="https://mrniftyfire.github.io/Minecraft-Story-Mode/Minecraft%20Story%20Mode.html">
+    <img src="Minecraft Story Mode.png" alt="Minecraft Story Mode"
+      style="width: 640px; height: 360px; border: 5px solid #ffffff; border-radius: 20px; 
+             box-shadow: 0 0 25px #ffffff; cursor: pointer; 
+             transition: transform 0.3s, box-shadow 0.3s;">
+  </a>
+</center>
+ <section style="background-image: url('Star GIT.png');">
+    <h1>
+      <a class="hover-link get-in-touch" href="https://mrniftyfire.github.io/Get-In-Touch/Get%20In%20Touch.html">
+        📬 <u>Get in Touch</u> 📬
+      </a>
+    </h1>
+    <img src="Get In Touch.png" alt="Get In Touch">
+  </section>
+  <a href="https://www.chess.com/blog/Nevisaurus_Rex/self-portrait-achievement" target="_blank" rel="noopener noreferrer" style="text-decoration: none; text-align: center; display: inline-block;">
+  <img src="Self Portrait.png" alt="Icon 1" style="display: block; margin: 0 auto;">
+  <span style="display: block; margin-top: 5px; color: black;">Self Portrait</span>
+</a>
+<center><h1>📥 Download All Icons</h1></center>
+
+<center><a href="All_Icons.zip" download style="text-decoration: none; text-align: center; display: inline-block;">
+  <img src="ZF.png" alt="Download All Icons" style="display: block; margin: 0 auto;">
+  <span style="display: block; margin-top: 5px; color: rgb(255, 255, 255);">Download All Icons</span>
+</a></center>
+
+  <!-- Discord -->
+  <section class="section" style="background-image: url('Discord Background.png');">
+    <div class="content">
+      <h1>Discord</h1>
+      <p>🎧 Welcome to the wild world of Discord moments!<br><br>
+      If you love unfiltered humor, wild conversations, and moments that should’ve never been recorded — you’re in the right place.<br><br>
+      😂 Expect chaotic banter, jokes that go too far, and the kind of randomness only friends online can bring.<br><br>
+      Nothing here is polished — it’s all raw, real, and ridiculously funny.<br><br>
+      Think of it as hanging out in a call with us — but you don’t need to unmute. 😉</p>
+      <h1>My Videos!</h1>
+      <div class="video-container">
+        <iframe width="560" height="315"
+          src="https://www.youtube.com/embed/REPLACE_WITH_YOUR_VIDEO"
+          title="YouTube video player" frameborder="0"
+          allowfullscreen>
+        </iframe>
+      </div>
+    </div>
+  </section>
+      <ul><li><a href="https://mrniftyfire.github.io/Get-In-Touch/Get%20In%20Touch.html">GIT</a></li></ul>
+	  <!DOCTYPE html>
+<html lang="en">
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<link rel="stylesheet" href="stylesheet.css">
+  <meta charset="UTF-8">
+  <title>Home</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Fredoka', sans-serif;
+      background-image: url('Minecraft Background (For Minecraft Page).png');
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      color: white;
+      text-shadow: 2px 2px 4px black;
+    }
+
+    .top-menu {
+      position: fixed;
+      top: 0;
+      width: 100%;
+      display: flex;
+      justify-content: space-around;
+      background-color: #111;
+      padding: 10px 0;
+      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
+      z-index: 1000;
+    }
+
+    .top-menu summary {
+      list-style: none;
+      cursor: pointer;
+      text-align: center;
+      color: white;
+      transition: 0.3s;
+    }
+
+    .top-menu summary:hover {
+      color: #ffffff;
+      text-shadow: 0 0 8px #ffffff, 0 0 16px #ffffff;
+    }
+
+    .top-menu img {
+      width: 30px;
+      height: 30px;
+      display: block;
+      margin: 0 auto 5px;
+      transition: transform 0.3s ease, filter 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .top-menu summary:hover img {
+      filter: brightness(1.3);
+      transform: scale(1.15); /* grows outward */
+      box-shadow: 0 0 10px #ffffff, 0 0 20px #ffffff;
+    }
+
+    /* Dropdown animation */
+    details ul {
+      list-style: none; /* removes dot */
+      padding: 0;
+      margin: 0;
+      max-height: 0;
+      overflow: hidden;
+      transition: max-height 0.4s ease-out;
+    }
+
+    details[open] ul {
+      max-height: 200px;
+      transition: max-height 0.4s ease-in;
+    }
+
+    .top-menu a {
+      color: white;
+      text-decoration: none;
+      display: block;
+      padding: 5px 0;
+      transition: 0.3s;
+    }
+
+    .top-menu a:hover {
+      color: #ffffff;
+      text-shadow: 0 0 8px #ffffff, 0 0 16px #ffffff;
+    }
+
+    body::before {
+      content: "";
+      display: block;
+      height: 60px;
+    }
+  </style>
+</head>
+<audio id="bg-music" loop>
+  <source src="Excitebike Arena - Mario Kart 8 Deluxe (OST).mp3" type="audio/mpeg">
+</audio>
+
+<button id="music-toggle">
+  🎵 Play Music
+</button>
+
+<script>
+  const music = document.getElementById("bg-music");
+  const toggleBtn = document.getElementById("music-toggle");
+
+  toggleBtn.addEventListener("click", () => {
+    if (music.paused) {
+      music.play();
+      toggleBtn.innerText = "🔇 Pause Music";
+    } else {
+      music.pause();
+      toggleBtn.innerText = "🎵 Play Music";
+    }
+  });
+</script>
+
+<style>
+  #music-toggle {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #111;
+    border: 2px solid white;
+    color: white;
+    padding: 12px 18px;
+    border-radius: 12px;
+    cursor: pointer;
+    font-size: 16px;
+    text-shadow: 2px 2px 4px black;
+    box-shadow: 0 0 10px transparent;
+    transition: transform 0.3s ease, filter 0.3s ease, box-shadow 0.3s ease;
+    z-index: 2000;
+  }
+
+  /* Glow to match menu icons */
+  #music-toggle:hover {
+    filter: brightness(1.3);
+    transform: scale(1.15);
+    box-shadow: 0 0 10px #ffffff, 0 0 20px #ffffff;
+  }
+</style>
+
+
+<body>
+<script src="Javascript.js" defer></script>
+
+<div class="menu-bar">
+  <div class="top-menu">
+    <details>
+      <summary><img src="PFP New (Small).png" alt="PFP (Small)">Home</summary>
+      <ul><li><a href="https://mrniftyfire.github.io/My-Youtube-Website/My%20Youtube%20Website.html">Home Page</a></li></ul>
+    </details>
+
+    <details>
+      <summary><img src="LEGA (Small).png" alt="LEGO">LEGO</summary>
+      <ul><li><a href="https://mrniftyfire.github.io/Lego-Stop-Motion/Lego%20Stop-Motion.html">LEGO Stop Motion</a></li></ul>
+    </details>
+
+    <details>
+      <summary><img src="Roblox (Small).png" alt="Roblox">Roblox</summary>
+      <ul><li><a href="https://mrniftyfire.github.io/Roblox-Site/Roblox.html">Roblox Page</a></li></ul>
+    </details>
+
+    <details>
+      <summary><img src="GD (Small).png" alt="GD">GD</summary>
+      <ul><li><a href="https://mrniftyfire.github.io/GD-Site/GD%20Site.html">Geometry Dash</a></li></ul>
+    </details>
+
+    <details>
+      <summary><img src="Duolingo (Small).png" alt="Duolingo">Duolingo</summary>
+      <ul><li><a href="https://mrniftyfire.github.io/Duolingo-Site/Duolingo.html">Duolingo Page</a></li></ul>
+            <ul><li><a href="https://mrniftyfire.github.io/All-Duolingo-Achievement-Icons/Get%20Every%20Duolingo%20Achievement.html">Duolingo Achievements</a></li></ul>
+    </details>
+
+    <details>
+      <summary><img src="Blooket (Small).png" alt="Blooket">Blooket</summary>
+      <ul><li><a href="https://mrniftyfire.github.io/Blooket-Site/Blooket%20Site.html">Blooket Page</a></li></ul>
+            <ul><li><a href="https://mrniftyfire.github.io/HTGEB/HTGEB.html">Get Every Blook</a></li></ul>
+      <ul><li><a href="https://mrniftyfire.github.io/Blooket-Calculator/Blooket%20Calculator">Blooket Calculator</a></li></ul>
+    </details>
+
+    <details>
+      <summary><img src="Minecraft & MSM.png" alt="Minecraft">Minecraft</summary>
+      <ul>
+        <li><a href="https://mrniftyfire.github.io/Minecraft-Site/Minecraft%20Site.html">Minecraft Page</a></li>
+        <li><a href="https://mrniftyfire.github.io/Minecraft-Story-Mode/Minecraft%20Story%20Mode.html">MSM</a></li>
+        <li><a href="https://mrniftyfire.github.io/Every-Minecraft-Achievement/EMAP.html">Minecraft Achievements</a></li>
+      </ul>
+    </details>
+
+    <details>
+      <summary><img src="Chess (Small).png" alt="Chess">Chess</summary>
+      <ul><li><a href="https://mrniftyfire.github.io/Chess-Site/Chess%20site.html">Chess Page</a></li></ul>
+      <ul><li><a href="https://mrniftyfire.github.io/Chess-Achievements-Guide/CAP.html">Chess Achievements</a></li></ul>
+    </details>
+
+    <details>
+      <summary><img src="Amoung Us. (Small).png" alt="Among Us">Among Us</summary>
+      <ul><li><a href="https://mrniftyfire.github.io/Among-Us-Site/Among%20Us.html">Among Us Page</a></li></ul>
+    </details>
+
+    <details>
+      <summary><img src="Prodigy (Small).png" alt="Prodigy">Prodigy</summary>
+      <ul><li><a href="https://mrniftyfire.github.io/Prodigy-Site/Prodigy.html">Prodigy Page</a></li></ul>
+    </details>
+
+    <details>
+      <summary><img src="UV & Christianity.png" alt="UV & Christianity">UV & Christianity</summary>
+      <ul>
+      <li><a href="https://mrniftyfire.github.io/Uncommon-Videos/Random%20Page.html">Uncommon Videos</a></li>
+      <li><a href="https://mrniftyfire.github.io/Uncommon-Videos/Random%20Page.html">Christianity</a></li>
+      </ul>
+    </details>
+
+    
+
+    <details>
+      <summary><img src="Pocket_Champs (Small).png" alt="Pocket Champs">PC</summary>
+      <ul><li><a href="https://mrniftyfire.github.io/Pocket-Champs-Site/Pocket%20Champs.html">Pocket Champs</a></li></ul>
+    </details>
+  </div>
+</div>
+  <script>
+    // Accordion: only one open at a time
+    const details = document.querySelectorAll("details");
+    details.forEach((targetDetail) => {
+      targetDetail.addEventListener("toggle", () => {
+        if (targetDetail.open) {
+          details.forEach((detail) => {
+            if (detail !== targetDetail) {
+              detail.open = false;
+            }
+          });
+        }
+      });
+    });
+  </script>
+
+</body>
+</html>
+
+
+<section style="background-image: url('PFP (New).png');">
+  <h1 style="color: white;"><h1>🎮 Welcome to the World of Mr Niftyfire! 🎮</h1>
+  <p style="color: white;">Hey there! I’m <b>Mr Niftyfire</b></p>
+  <p style="color: white;">
+<p>I'm a<I> chaotic good gamer from Australia</I> bringing you <b>Minecraft madness, chess challenges</b>, and a whole <U>lot of randomness</U>.
+    <br>I am <U>person of many of hobbies</U>, <u>like science or space</u>, <b>tell me a fact</b> or two
+    <br>I am sure <B>I will love it</B>, <I>especially if it's about black holes</I>.
+    <br><B>In this website</B> <b>you will find</b> information about
+    <br>What <u>type of person I am</u>
+    <br>What are the <u><b>type of videos I make</b></u>
+    <br>Where you can <B>get in touch with me</B>
+    <br>As well as <u>some facts about me you should know</u>.
+    <br>(maybe you with some luck <U><i><B>you can find something secret</B></i></U> too!)   
+  </p>
+</section>
+
+<section style="background-image: url('TUBGWAB\ Blurry\ Background.png');">
+  <h1 style="color: rgb(255, 255, 255);">Watch my trailer for more information!</h1>
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/wpEmsaYmwwk?si=S3HQrKjfD-hmCqse" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+  <p><center>This will help you know what is on each page</center></p>
+</section>
+
+<section id="more-trailer-info" style="background-image: url('Website\ Sneak\ Peaks\ \(Blurred\).png');">
+  <h1 style="color: white;"><u>Website Sneak Peaks</u></h1>
+  <p style="color: white;">Click the images below to see different parts of the website!</p>
+
+  <img id="swapImage" src="Minecraft Achievements.png" alt="Trailer Image" width="600" style="border-radius: 12px; transition: opacity 0.5s ease; cursor: pointer;">
+</section>
+
+
+<section style="background-image: url('Hacking\ Background.png');">
+  <h1 style="color: white;">Fun Bobious Facts!</h1>
+  <h2 style="color: white;">I’m obsessed with hacks — I showcase the best ones.</h2>
+  <img src="Hacks.png" alt="Hacks">
+</section>
+
+<section style="background-image: url('Bobiously\ BG.png');">
+  <h2 style="color: black;">I say “bobiously” instead of “obviously” — bobiously better.</h2>
+  <img src="Bobiously.png" alt="Bobiously">
+</section>
+
+<section style="background-image: url('Australian\ Background.png');">
+  <h2 style="color: white;">I live in Australia (yes, it’s real — and the spiders aren’t always huge!)</h2>
+  <img src="Australia.png" alt="Australia">
+</section>
+
+<section style="background-image: url('Math\ Background.png');">
+  <h2 style="color: white;">I’m pretty good at math, <i><b>don’t question me</b></i> (joking!)</h2>
+  <img src="Math.png" alt="Math">
+</section>
+
+<section style="background-image: url('Flappy\ Bird\ Background.png');">
+  <h1 style="color: white; text-shadow: 2px 2px 6px black;">Flappy Bird</h1>
+  <p style="color: white;">Flappy Bird, the popular 2013 mobile arcade game where players tap to make a bird flap between green pipes.</p>
+  <canvas id="flappyCanvas" width="400" height="600"
+    style="border: 4px solid white; border-radius: 16px; box-shadow: 0 0 25px rgba(255,255,255,0.3);
+           background: linear-gradient(to bottom, #87CEEB, #4DA1FF);">
+  </canvas>
+</section>
+
+<section style="background-image: url('My\ Quote\ BG.png');">
+    <h1 style="color: white;">Random Quote I Made</h1>
+  <p style="color: white;"><u>You appreciate something the most when it’s gone</u></p>
+  <img src="My Quote.png" alt="Quote">
+  <h2 style="color: white;">- Mr Niftyfire</h2>
+</section>
+
+<section style="background-image: url('Trailer\ Blurry\ Background.PNG');">
+  <h1 style="color: white;"><u>Watch My Trailer!</u></h1>
+  <iframe width="1120" height="630" src="https://www.youtube.com/embed/ZQTWZuX-c0w?si=3MrmSj-IvTBEdpg3" title="YouTube video player" allowfullscreen></iframe>
+</section>
+
+<section style="background-color: black; padding: 100px 20px;">
+  <h1 style="color: white; font-size: 4rem; margin-bottom: 40px;">
+    <u>My Subscriber Count!</u>
+  </h1>
+  <div id="subCount" style="
+      display: inline-block;
+      background-color: #ff0000;
+      color: white;
+      padding: 20px 40px;
+      border-radius: 50px;
+      font-size: 2.5rem;
+      font-weight: bold;
+      box-shadow: 0 8px 25px rgba(255, 0, 0, 0.4);
+    ">
+    Loading...
+  </div>
+</section>
+
+
+<script>
+const subCountDiv = document.getElementById('subCount');
+
+// Smooth counter animation
+async function fetchSubscribers() {
+  try {
+    const response = await fetch('https://vercel-c4ld.vercel.app/api/subs');
+    const data = await response.json();
+    const target = Number(data.subscribers);
+
+    if (isNaN(target)) {
+      subCountDiv.innerText = 'Unknown';
+      return;
+    }
+
+    // Animate count
+    let count = 0;
+    const step = Math.ceil(target / 100); // adjust speed
+    const interval = setInterval(() => {
+      count += step;
+      if (count >= target) {
+        count = target;
+        clearInterval(interval);
+      }
+      subCountDiv.innerText = `${count.toLocaleString()} Subscribers`;
+    }, 20); // adjust speed
+  } catch (error) {
+    console.error(error);
+    subCountDiv.innerText = 'Unknown';
+  }
+}
+
+// Start fetching
+fetchSubscribers();
+</script>
+
+
+
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background-color: black;
+    }
+
+    section {
+      width: 100%;
+      min-height: 100vh;
+      background-size: cover;
+      background-position: center;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      text-align: center;
+      padding: 50px 20px;
+    }
+
+    h1, h2, p {
+      padding: 10px 20px;
+      margin-bottom: 20px;
+      border-radius: 12px;
+    }
+
+    img {
+      max-width: 80%;
+      height: auto;
+      margin: 20px 0;
+      border-radius: 12px;
+      box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+    }
+
+    .hover-link {
+      text-decoration: none;
+      color: inherit;
+      transition: color 0.2s ease;
+    }
+
+    .hover-link:hover {
+      color: #570080;
+      cursor: pointer;
+    }
+
+    iframe {
+      border-radius: 12px;
+      margin: 30px 0;
+    }
+
+    .get-in-touch {
+      display: inline-block;
+      animation: pulse 2s infinite;
+      transition: transform 0.3s ease;
+    }
+
+    .get-in-touch:hover {
+      transform: scale(1.1);
+      text-decoration: underline;
+    }
+
+    @keyframes pulse {
+      0% { opacity: 1; }
+      50% { opacity: 0.6; }
+      100% { opacity: 1; }
+    }
+  </style>
+
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Fredoka', sans-serif;
+      background-image: url('Math Background.png');
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      color: white;
+      text-shadow: 2px 2px 4px black;
+    }
+
+    .top-menu {
+      position: fixed;
+      top: 0;
+      width: 100%;
+      display: flex;
+      justify-content: space-around;
+      background-color: #111;
+      padding: 10px 0;
+      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
+      z-index: 1000;
+    }
+
+    .top-menu a {
+      color: white;
+      text-decoration: none;
+      text-align: center;
+      font-size: 14px;
+      transition: 0.3s;
+    }
+
+    .top-menu a:hover {
+      color: #ffffff;
+    }
+
+    .top-menu img {
+      width: 30px;
+      height: 30px;
+      display: block;
+      margin: 0 auto 5px;
+      transition: transform 0.3s ease, filter 0.3s ease;
+    }
+
+    .top-menu a:hover img {
+      filter: brightness(1.5);
+      transform: scale(1.1);
+    }
+
+    body::before {
+      content: "";
+      display: block;
+      height: 60px;
+    }
+  </style>
+</head>
+
+<body>
+
+</body>
+</html>
+
