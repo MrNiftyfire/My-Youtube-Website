@@ -4,11 +4,11 @@ Thank you for your interest in the Mr Niftyfire Website. We welcome community co
 
 ## 1. [Code of Conduct](./CODE_OF_CONDUCT.md)
 
-We want this project to be a welcoming space for everyone. By contributing, you agree to follow our [Code of Conduct](./CODE_OF_CONDUCT.md) and help keep the community respectful and inclusive.
+I want this project to be a welcoming space for everyone. By contributing, you agree to follow our [Code of Conduct](./CODE_OF_CONDUCT.md) and help keep the community respectful and inclusive.
 
 ## 2. How to Contribute
 
-We welcome contributions in various forms, including:
+I welcome contributions in various forms, including:
 
 - Bug fixes
 - Documentation improvements
@@ -27,14 +27,14 @@ To contribute, follow these steps:
 
 ### Commit Messages
 
-Use clear and descriptive commit messages. Examples:
+Use clear and descriptive commit messages.
 
 
 ## 3. Legal Terms
 
 By submitting a contribution, you represent and warrant that:
 
-- It is your original work, or you have sufficient rights to submit it.
+- It is your original work.
 - You grant the Mr Niftyfire Website maintainers the right to use, modify, and distribute it under the [MIT license](./LICENSE.md); and
 - If your contribution includes third-party material, it must be MIT-compatible and properly attributed.
 
