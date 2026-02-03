@@ -1,6 +1,6 @@
 # Mr Niftyfire – Official Website
 
-Welcome to the official website for **Mr Niftyfire** — gamer, creator, and lover of space, black holes, and chaos. This site is the main hub for my content, my videos, and fun pages based on the games I play.
+Welcome to the official website for **Mr Niftyfire** — gamer, creator and proud christian. This site is the main hub for my content, my videos, and fun pages based on the games I play.
 This is the website! https://mrniftyfire.github.io/My-Youtube-Website/My%20Youtube%20Website.html
 
 ---
@@ -69,6 +69,7 @@ Explore and try to find them!
 - Add SEO tags for better search results.
 - Add alt text to all images for accessibility.
 - Compress images to speed up loading.
+- Adding a movie reviews page
 - Add analytics (optional).
 
 ---
