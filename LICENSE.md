@@ -1,7 +1,7 @@
 Copyright © 2025 Mr Niftyfire.
 All rights reserved.
 
-The Mr Niftyfire Website and all original content on it (including text, layout, design, and website functionality) are the property of the website owner.
+The Mr Niftyfire Website and all original content on it (including text, layout, design, and website functionality) are the property of myself.
 
 Some photos, images, and media shown on this website are not owned by me. These materials belong to their original creators, copyright holders, or respective sources. I do not claim ownership of any third-party images.
 
