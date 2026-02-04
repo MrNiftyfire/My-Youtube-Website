@@ -59,19 +59,15 @@ Explore and try to find them!
 ## 🛠 Development & Hosting
 - Hosted with **GitHub Pages**.  
 - Designed using **HTML, CSS, and JavaScript**.  
-- Fully works on both desktop and mobile (mobile layout still being improved).
+- Mostly works on both desktop and mobile (mobile layout still being improved).
 
 ---
 
 ## 📌 Notes & Future Improvements
 - Add/Update the YouTube trailer.
-- Improve mobile navigation (the menu is big).
-- Add SEO tags for better search results.
-- Add alt text to all images for accessibility.
-- Compress images to speed up loading.
+- Improve mobile navigation.
 - Adding a movie reviews page
-- Add analytics (optional).
-
+- Planning to add a chatbot to help you navigate the website
 ---
 
 Thanks for checking out the **Mr Niftyfire Website**! This site will keep growing as I make more content and add more game pages.
